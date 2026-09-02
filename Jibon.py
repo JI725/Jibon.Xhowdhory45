@@ -450,7 +450,7 @@ def apv():
         linex()
         print(" [✓] Key Not Approved")
         print(" !! Key - "+num_key)
-        os.system("xdg-open https://www.facebook.com/lsdigitalgrowth)
+        os.system("xdg-open https://www.facebook.com/Jibon.Xhowdhury56")
         sys.exit()
 
 
