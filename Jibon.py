@@ -163,7 +163,7 @@ f"{blue}|{white}={blue}|{cyan} DEVELOPER {white}: {yellow}︎Jibon\n",
 f"{blue}|{white}={blue}|{cyan} TOOLTYPE {white} : {green}Paid {magenta}({yellow}OLD {cyan}CLONE{magenta})\n",
 f"{blue}|{white}={blue}|{cyan} VERSION   {white}: {yellow}︎v1.0\n",
 f"{blue}|{white}={blue}|{cyan} Contact Wp   {white}: {green}︎+8801924599795",
-f"{magenta}───────────────────────────────────────\n",
+f"{white}───────────────────────────────────────\n",
 
     ])
     print(logo)
