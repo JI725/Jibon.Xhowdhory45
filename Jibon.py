@@ -153,20 +153,18 @@ def banner():
     clear()
     logo = "".join([
         """
-\n /$$$$$ /$$$$$$ /$$$$$$$   /$$$$$$  /$$   /$$
-   |__  $$|_  $$_/| $$__  $$ /$$__  $$| $$$ | $$
-      | $$  | $$  | $$  \ $$| $$  \ $$| $$$$| $$
-      | $$  | $$  | $$$$$$$ | $$  | $$| $$ $$ $$
- /$$  | $$  | $$  | $$__  $$| $$  | $$| $$  $$$$
-| $$  | $$  | $$  | $$  \ $$| $$  | $$| $$\  $$$
-|  $$$$$$/ /$$$$$$| $$$$$$$/|  $$$$$$/| $$ \  $$
- \______/ |______/|_______/  \______/ |__/  \__/n""",
-        f"{white}───────────────────────────────────────\n",
-        f"{red}|{white}={red}|{green} DEVELOPER {white}: {green}︎Jibon\n",
-        f"{red}|{white}={red}|{green} TOOLTYPE {white} : {green}Paid {red}({green}OLD{white} {green}CLONE{red})\n",
-        f"{red}|{white}={red}|{green} VERSION   {white}: {white}︎v1.0\n",
-        f"{red}|{white}={red}|{green} Contact Wp   {white}: {white}︎+8801924599795",
-        f"{white}───────────────────────────────────────\n"
+\n / JJJJJ   IIIII  BBBBB    OOOOO   N   N
+       J       I    B    B  O     O  NN  N
+       J       I    BBBBB   O     O  N N N
+   J   J       I    B    B  O     O  N  NN
+   JJJJJ     IIIII  BBBBB    OOOOO   N   Nn""",
+        f"{magenta}───────────────────────────────────────\n",
+f"{blue}|{white}={blue}|{cyan} DEVELOPER {white}: {yellow}︎Jibon\n",
+f"{blue}|{white}={blue}|{cyan} TOOLTYPE {white} : {green}Paid {magenta}({yellow}OLD {cyan}CLONE{magenta})\n",
+f"{blue}|{white}={blue}|{cyan} VERSION   {white}: {yellow}︎v1.0\n",
+f"{blue}|{white}={blue}|{cyan} Contact Wp   {white}: {green}︎+8801924599795",
+f"{magenta}───────────────────────────────────────\n",
+
     ])
     print(logo)
     
