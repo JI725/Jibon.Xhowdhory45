@@ -158,7 +158,7 @@ def banner():
        J       I    BBBBB   O     O  N N N
    J   J       I    B    B  O     O  N  NN
    JJJJJ     IIIII  BBBBB    OOOOO   N   Nn""",
-        f"{magenta}───────────────────────────────────────\n",
+        f"{blue}───────────────────────────────────────\n",
 f"{blue}|{white}={blue}|{cyan} DEVELOPER {white}: {yellow}︎Jibon\n",
 f"{blue}|{white}={blue}|{cyan} TOOLTYPE {white} : {green}Paid {magenta}({yellow}OLD {cyan}CLONE{magenta})\n",
 f"{blue}|{white}={blue}|{cyan} VERSION   {white}: {yellow}︎v1.0\n",
